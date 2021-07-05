@@ -1,0 +1,22 @@
+﻿Build started 1/26/2021 6:57:06 PM.
+     1>Project "E:\COAL PROJECT\KnowledgeTester\KnowledgeTester\KnowledgeTester.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KnowledgeTester.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\DARK VADER\AppData\Local\Temp\tmp36aa8bf42db647a0b1e301b7c11e018c.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\project.obj" /Fl"$KnowledgeTester.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /Taproject.asm
+       Link:
+         D:\Vs 210\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\COAL PROJECT\KnowledgeTester\Debug\KnowledgeTester.exe" /NOLOGO /LIBPATH:c:\Irvine irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\KnowledgeTester.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\COAL PROJECT\KnowledgeTester\Debug\KnowledgeTester.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\COAL PROJECT\KnowledgeTester\Debug\KnowledgeTester.lib" /MACHINE:X86 Debug\project.obj
+         LINK : E:\COAL PROJECT\KnowledgeTester\Debug\KnowledgeTester.exe not found or not built by the last incremental link; performing full link
+         KnowledgeTester.vcxproj -> E:\COAL PROJECT\KnowledgeTester\Debug\KnowledgeTester.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\COAL PROJECT\KnowledgeTester\Debug\KnowledgeTester.exe;#1" /manifest Debug\KnowledgeTester.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\KnowledgeTester.unsuccessfulbuild".
+         Touching "Debug\KnowledgeTester.lastbuildstate".
+     1>Done Building Project "E:\COAL PROJECT\KnowledgeTester\KnowledgeTester\KnowledgeTester.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42
